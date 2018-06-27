@@ -1,8 +1,8 @@
 <h1>RESTful web service using gorilla mux, gorm, and postgresql with one to many relationship</h1>
 
 <div>
-<img src="./resources/go.png" height="200" width="200"/>
-<img src="./resources/golang.png"  height="200" width="200"/>
+<img src="./resources/go.png" height="350pt" width="350pt"/>
+<img src="./resources/golang.png"  height="350pt" width="350pt"/>
 </div>
 
 
