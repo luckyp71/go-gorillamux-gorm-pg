@@ -40,7 +40,7 @@ func main(){
 	db.SingularTable(true)
 	db.AutoMigrate(Customer{}, Contact{})
 	db.Model(&Contact{}).AddForeignKey("cust_id", "customer(customer_id)","CASCADE","CASCADE")
-
+	db.Model(&Customer{}).AddIndex("idx_customer_id_name", "customer_id", "customer_name")
 
 	router := mux.NewRouter()
 	router.HandleFunc("/customers", getCustomers).Methods("GET")
