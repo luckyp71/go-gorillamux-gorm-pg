@@ -1,4 +1,4 @@
-<h1>RESTful web service using gorilla mux, gorm, and postgresql with one to many relationship</h1>
+<h1>RESTful web service using Golang, Gorilla Mux, Gorm, and PostgreSQL with one to many relationship</h1>
 
 <div>
 <img src="./resources/go.png" height="360pt" width="350pt"/>
@@ -6,7 +6,7 @@
 </div>
 
 
-<p>This repository is an example on how to create RESTful web service using gorrila mux, gorm, and postgresql. The app consists of two models i.e. customer and email. Instead of putting those two models in a single model package, this example put them directly in a service layer.</p>
+<p>This repository is an example on how to create RESTful web service using Golang, Gorrila Mux, Gorm, and PostgreSQL. The app contains two models i.e. customer and contact. Each customer may have one or more contacts, so that this example will simulate one to many relationship using one of Golang's Object Relational Mappin (ORM) frameworks i.e. Gorm. 
 
 <h3>Prerequisites</h3>
 <p>1. <a href="https://golang.org">Go</a></p>
@@ -14,8 +14,7 @@
 <p>3. <a href="http://gorm.io">GORM</a></p>
 <p>4. <a href="https://www.postgresql.org">PostgreSQL</a></p>
 
-
-<h3>Sample Payload</h4>
+<h3>Sample Payload</h3>
 <p>1. <a href="./resources/getCustomers.png">Get customers</a></p>
 <p>2. <a href="./resources/getCustomersByName.png">Get customer list by name</a></p>
 <p>3. <a href="./resources/getCustomerById.png">Get customer by</a></p>
